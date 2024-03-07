@@ -1,0 +1,21 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
+    "allowJS": true,
+    "include": [ 
+      "resources/**/*.ts",
+      "resources/**/*.d.ts",
+      "resources/**/*.vue"
+    ],
+    "compilerOptions": {
+      "target": "es2021",
+      "jsx": "preserve",
+      "module": "esnext",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "noImplicitAny": false,
+      "allowJs": true
+  }
+}
